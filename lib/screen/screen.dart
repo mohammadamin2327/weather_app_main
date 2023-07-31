@@ -129,7 +129,7 @@ class Screen extends StatelessWidget {
               builder: (context) {
                 String? image = instanse!.description;
                 return Image.asset(
-                  'Weather_Icons/${weatherIcon.weatherIcon(description: image)}',
+                  'weather_icons/${weatherIcon.weatherIcon(description: image)}',
                   width: 250,
                   height: 250,
                 );
